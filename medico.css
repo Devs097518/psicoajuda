@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Raleway&display=swap');
+
+#caixote {
+	margin: 30px;
+	padding-top: 0;
+}
+
+#um {
+	border-radius: 10px;
+
+}
+
+
+#dois {
+	background-color: #8eaa95;
+	box-shadow: 10px 10px 0px -3px rgba(255, 255, 255), 10px 10px rgba(0, 0, 0, 0.4), 20px 20px 0px -3px rgba(255, 255, 255), 20px 20px rgba(0, 0, 0, 0.3);
+
+
+
+
+}
+
+
+.container {
+	display: flex;
+	width: 100%;
+}
+
+#mulher {
+	width: 400px;
+	margin: 30px 0 0 30px;
+	padding-right: 0em;
+
+}
+
+#texto {
+	max-width: 1200px;
+}
+
+.bee {
+	display: inline-block;
+	width: 42%;
+	margin: 10px;
+	padding: 20px;
+	text-align: justify;
+	margin-top: 0px;
+}
+
+#descricao {}
+
+header {
+	background-color: #94CBCC;
+	padding: 5px;
+	text-align: center;
+	display: flex;
+	margin-bottom: 0px;
+	margin: auto;
+	justify-content: space-around;
+}
+
+section {
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(rgb(229, 229, 229))) no-repeat;
+	padding: 2em 4em 2em 3em;
+	padding-right: 0em;
+	align-items: center;
+
+}
+
+#text5 {
+	font-size: 1.5em;
+	padding-right: 15em;
+	text-align: justify;
+}
+
+
+footer {
+	background-color: #94CBCC;
+	padding: 5px;
+	text-align: center;
+	font-size: 20px;
+	display: flex;
+
+	align-items: center;
+
+	margin-bottom: 0px;
+	margin: auto;
+	justify-content: space-around;
+}
+
+body {
+	/*
+			background: -webkit-gradient(linear, left top, left bottom, from(black), to(#dfffd5)) no-repeat;
+			*/
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#eaffea)) no-repeat;
+	font-family: 'Gloock', serif;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	float: center;
+	margin: 0px 20px 0px 0px;
+	vertical-align: top;
+	display: inline;
+}
+
+#psico {
+	width: 150px;
+	height: auto;
+	vertical-align: justify;
+}
+
+
+
+.cima {
+	color: #000000;
+	display: inline-block;
+	margin: 54px 30px;
+	text-align: center;
+	padding: 0px;
+	font-size: 30px;
+	background-color: #94CBCC;
+	text-shadow: rgba(180, 145, 123, 0.7)6px 4px 9px;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.gold {
+	margin: 50%;
+}
+
+
+
+.botoes {
+
+	display: flex;
+	justify-content: center;
+	padding: 2em;
+}
+
+#ghost {
+	width: 20%;
+	border-radius: 25px;
+	/* opacity: 0.8;
+    filter: blur(5px); */
+	border: 10px;
+	border-width: 5px;
+	border-style: dashed;
+}
+
+#clica {
+	position: absolute;
+	margin-top: 25%;
+	font-size: 2em;
+	letter-spacing: 7px;
+}
+
+#paragrafo {
+
+	margin: 0 50px 50px 50px;
+
+}
+
+#up {
+
+	display: flex;
+	background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#f9ffff)) no-repeat;
+	border-left: solid;
+	border-width: 5px;
+	padding: 2px 0 2px 5px;
+	font-style: italic;
+}
+
+#mulher {
+	width: 200px;
+	border-radius: 100%;
+	padding-right: 3em;
+}
+
+#anuncio {
+	max-width: 100%;
+	background: #cccccc;
+	font-size: 2em;
+	margin: 10px;
+	padding: 1em;
+	border-radius: 10px;
+}
+
+#email {
+	color: blue;
+}
+
+@media (max-width: 768px) {
+	.bee {
+		display: inline-block;
+		margin: auto;
+		padding: 20px;
+		text-align: justify;
+		margin-top: 0px;
+		align-items: flex-start;
+		font-size: 15px;
+	}
+
+	#caixote {
+		display: flex;
+		align-items: center;
+		max-width: 500px;
+		min-width: 300px;
+
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 2em;
+		margin: auto;
+
+	}
+
+	.cima {
+		color: #000000;
+		display: inline-block;
+		margin: auto;
+		text-align: center;
+		padding: 15px;
+		font-size: 15px;
+		background-color: #94CBCC;
+		margin-top: 10px;
+		text-shadow: rgba(180, 145, 123, 0.7)6px 4px 9px;
+	}
+
+	#psico {
+		width: auto;
+		height: 90px;
+	}
+
+
+	footer {
+		font-size: 15px;
+	}
+
+	#soc {
+		width: 50px;
+
+	}
+
+	#anuncio {
+		font-size: 20px;
+	}
+
+	#mulher {
+		width: 100px;
+	}
+}

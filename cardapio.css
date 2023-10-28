@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Raleway&display=swap');				
+								 
+.bee{
+	   display: inline-block;
+			width:51%;
+			margin:10px;
+			padding: 20px;			
+			text-align:justify;
+			margin-top: 0px;
+			align-items: flex-start;
+			}
+								
+			header{
+				background-color: #94CBCC;
+				padding: 5px;
+				text-align: center;
+				display: flex;
+				margin-bottom: 0px;
+				margin: auto;
+				justify-content: space-around;		
+						  }
+				
+				.container{
+				    display: flex;	
+					  width: 100%;			    
+				}
+				
+				#titulo{
+				    background-color: #faf4ee;
+
+								padding: 2em;
+								width: 1200px;
+								margin: auto;
+															
+				}
+				.subtitulo{
+				    box-shadow: 2px 2px 10px #255 255 255;
+				    width: 400px;
+				    height: auto;
+				    background: white;
+				    border-radius: 25px;
+				    margin: 12px;
+				    padding: 20px;
+				    
+				}
+				.coluna{
+				    display: flex;		    
+				    flex-direction: column;    
+				}
+				#card1{
+				    color: black;
+				    background: #eaeaff;
+				}
+				#card2{
+				    color: black;
+				    background: #ffdfd5;
+				}
+				#card3{
+				    color: black;
+				    background: #fff4d5;
+				}
+				#card4{
+				    color: black;
+				    background: white;
+				}
+								
+footer{																    							       
+	            background-color: #94CBCC;
+			    padding:40px;			
+				text-align:center;
+				display: flex;
+				align-items: center;
+				
+				justify-content: space-around;
+				}
+								
+body{
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#eaffea)) no-repeat;
+	font-family: 'Gloock', serif;
+	font-family: 'Raleway', sans-serif;    
+	margin: 0;
+    margin: 0;
+    padding: 0;
+}
+							
+img{
+		float:center;
+		margin:0px 20px 0px 0px;
+		vertical-align: top;
+		display: inline;
+		}
+								
+		#psico{
+			width:auto;
+			height: 130px;
+		    vertical-align: justify;
+			}
+
+.cima{
+		  display: inline-block;
+     margin: 54px 30px;
+			 text-align:center;
+			 color: #000000;
+			 padding:0px;
+			 font-size: 30px;
+			 background-color: #94CBCC;
+			 text-shadow: rgba(180, 145, 123, 0.7)6px 4px 9px;
+				}											
+			
+a{
+				text-decoration: none;
+				color: black;
+}
+
+#paragrafo{
+margin: 0 50px 50px 50px;
+    
+}
+
+#up{
+background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#f9ffff)) no-repeat;
+border-left: solid;
+border-width: 5px;
+font-style: italic;
+padding: 0.5em;
+max-width: 900px;
+margin: auto;
+
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 5em;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 3px 3px 0px #c1c1c1;
+}
+
+#description{
+    text-align: justify;
+	max-width: 900px;
+	margin: auto;
+	padding: 20px 0 20px 0;
+	line-height: 25px;
+}
+
+section{
+	width: auto;
+}
+
+#comentarios{
+	padding: 20px 0 20px 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+li{
+	margin: 12px;
+	text-align: center ;
+}
+
+
+
+@media (max-width: 959px){
+	.container{
+		display: block;
+		flex-direction: flex;
+		width: auto;
+		font-size: 15px;
+	}
+
+	#titulo{
+		width: auto;
+		font-size: 15px;
+	}
+
+	.subtitulo{
+		margin: auto;
+		padding: 2.5em;
+		border-radius: 15px;
+	}
+
+	.bee{
+		display: inline-block;	
+	margin: auto;
+	padding: 20px;
+	text-align: justify;
+	margin-top: 0px;
+	align-items: flex-start;
+	font-size: 15px;	
+	}
+
+	#caixote {
+		display: flex;
+		align-items: center;
+		max-width: 500px;
+		min-width: 300px;
+	
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 2em;
+		margin: auto;
+		
+	}
+    .cima {
+		color: #000000;
+		display: inline-block;
+		margin: auto;
+		text-align: center;
+		padding: 15px;
+		font-size: 15px;
+		background-color: #94CBCC;
+		margin-top: 10px;
+		text-shadow: rgba(180, 145, 123, 0.7)6px 4px 9px;
+	}
+	
+	#psico{
+		width:auto;
+		height: 80px;
+	}
+    
+
+	footer{
+		font-size: 15px;
+
+	}
+
+	#soc{
+		width:35px;
+	}
+
+}
