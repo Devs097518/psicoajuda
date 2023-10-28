@@ -64,6 +64,8 @@ section {
 	background: -webkit-gradient(linear, left top, left bottom, from(white), to(rgb(229, 229, 229))) no-repeat;
 	padding: 2em 4em 2em 3em;
 	padding-right: 0em;
+	padding-left: 30px;
+        padding-top: 30px;
 	align-items: center;
 
 }
